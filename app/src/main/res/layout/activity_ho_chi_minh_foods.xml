@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoChiMinhFoods">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/HochiminhFoods"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="-17dp"
+                android:src="@drawable/comtam" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-120dp"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Tam Rice"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textAllCaps="false" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="-60dp"
+                android:src="@drawable/banhxeo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-75dp"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Banh Xeo"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="-45dp"
+                android:src="@drawable/banhtrangtron" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-75dp"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Rice Paper Salad"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

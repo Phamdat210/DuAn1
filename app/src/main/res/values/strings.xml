@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DuAn1</string>
+    <string name="place">Place</string>
+    <string name="Hanoi">Hanoi</string>
+    <string name="Danang">Da Nang</string>
+    <string name="Hochiminh">Ho Chi Minh</string>
+    <string name="HochiminhPlace">Ho Chi Minh - Place</string>
+    <string name="DanangPlace">Da Nang - Place</string>
+    <string name="HanoiPlace">Hanoi - Place</string>
+    <string name="HanoiFoods">Hanoi - Foods</string>
+    <string name="DaNangFoods">Da Nang - Foods</string>
+    <string name="HochiminhFoods">Ho Chi Minh - Foods</string>
+    <string name="title_activity_hoan_kiem_place">Map</string>
+    <string name="title_activity_hanoi_mausoleum_place">Map</string>
+    <string name="title_activity_hanoi_van_mieu_place">Map</string>
+    <string name="title_activity_da_nang_hoi_an_place">Map</string>
+    <string name="title_activity_da_nang_dragon_bridge_place">Map</string>
+    <string name="title_activity_da_nang_peninsula_place">Map</string>
+    <string name="title_activity_ho_chi_minh_church_place">Map</string>
+    <string name="title_activity_ho_chi_minh_bitexco_place">Map</string>
+    <string name="title_activity_ho_chi_minh_temple_place">Map</string>
+    <string name="DanangDragonBridge">Dragon Bridge</string>
+    <string name="DanangHoiAn">Hoi An</string>
+    <string name="DanangSonTra">Son Tra Peninsula</string>
+    <string name="HanoiHoanKiem">Hoan Kiem Lake</string>
+    <string name="HanoiMausoleum">Ho Chi Minh Mausoleum</string>
+    <string name="HanoiVanMieu">Temple of Literature</string>
+    <string name="HochiminhBitexco">Bitexco Tower</string>
+    <string name="HochiminhChurch">Tan Dinh Chunrch</string>
+    <string name="HochiminhTemple">Ngoc Hoang Temple</string>
+</resources>
